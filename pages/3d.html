@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SC - 3D</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- LINKEO ICONOS REDES SOCIALES DE BOOTRSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- LINKEO BIBLIOTECA DE ANIMACIONES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>SC 3d - Impresoras 3D</title>
+</head>
+<body>
+    <header>
+        <p><span>Días de oferta</span> 10% OFF y Hasta 6 cuotas sin interés</p>
+        <section class="encabezado">
+            <a href="../img/logo.png"><img class="encabezado__logo" src="./img/logo.png" alt="Logo SC"></a>
+            <nav class="encabezado__menu">
+                <ul>
+                    <li><a href="">Multifunción</a></li>
+                    <li><a href="">3D</a></li>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="equipos">
+            <div class="equipos__info">
+                <h3 class="equipos__info--subitulo">Lit amet consectetur</h3>
+                <h2 class="equipos__info--titulo">Lit amet <span>consectetur</span></h2>
+                <button class="equipos__info--boton">Botón</button>
+                <button class="equipos__info--boton--especial">Botón</button>
+            </div>
+            <div>
+                <img class="equipos_imagen" src="../img/ender_51.jpg" alt="Impresora Ender">
+            </div>
+        </section>
+        <section class="ejemplos">
+            <div>
+                <h2 class="ejemplos__subtitulo">Lo que el mundo 3d puede hacer</h2>
+            </div>
+            <div class="ejemplos__imagenes">
+            <img class="deco" src="../img/3d_deco.jpg" alt="3d deco">
+            <img class="disco" src="../img/3d_disco.jpg" alt="3d disco">
+            <img class="frasco" src="../img/3d_frasco.jpg" alt="3d frasco">
+            <img class="grua" src="../img/3d_grua.jpg" alt="3d grua">
+            <img class="guitarra" src="../img/3d_guitarra.jpg" alt="3d guitarra">
+            <img class="maceta" src="../img/3d_maceta.jpg" alt="3d maceta">
+            <img class="telefono" src="../img/3d_telefono.jpg" alt="3d telefono">
+            <img class="vidrio" src="../img/3d_vidrio.jpg" alt="3d vidrio">  
+            </div>
+        </section>
+        <h2 class="titulo__modelos">Nuestras impresoras 3d</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/ender_3v2.png" class="d-block w-100" alt="Impresora Ender 3v2">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/ender_5.jpg" class="d-block w-100" alt="Impresora Ender 5">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/ender_51.jpg" class="d-block w-100" alt="Impresora Ender 51">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>
+    <footer>
+        <div id="contenedor__footer">
+            <div id="menu_footer">
+                <h2 class="menu_footer__subtitulos">Secciones</h2>
+                <ul class="menu_footer__enlaces">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./pages/3d.html">3D</a></li>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Contacto</a></li>
+
+                </ul>
+            </div>
+            <div id="footer_suscripcion">
+                <h2>Suscribite y enterate de lo último</h2>
+                <form class="footer_suscripcion__form">
+                    <label for>
+                    <input type="email" placeholder="Suscribirme" class="footer_suscripcion__placeholder">
+                    <input type="submit">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div id="footer_iconos">
+                <i class="bi-linkedin"></i>
+                <i class="bi-instagram"></i>
+                <i class="bi-youtube"></i>
+        </div>
+        <div id="footer_contacto">
+            <a href="./pages/contacto.html">Contacto</a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+$redes: (
+    linkedin: #FF5733,
+    instagram: #FC33FF,
+    youtube: #EA2720,    
+);
+
+.bi-linkedin{
+    color: map-get($redes, "linkedin");
+}
+
+.bi-instagram{
+    color: map-get($redes, "instagram");
+}
+
+.bi-youtube{
+    color: map-get($redes, "youtube");
+}

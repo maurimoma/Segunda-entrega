@@ -43,8 +43,8 @@ header{
     }
     .apertura{
         padding-top: 10vh;
-        background-color: black;
-        color: white;
+        
+        @include layout(black, white);
         h2{
             text-align: center;
             margin-bottom: 3vh;
@@ -76,8 +76,8 @@ header{
         background-color: black;
     }
     .segunda_seccion{
-        background-color: black;
-        color: white;
+        @include layout(black, white);
+
         &__reseña1{
             padding-top: 7vh;
             display: flex;
@@ -141,8 +141,7 @@ header{
         }
     }
     footer{
-        background-color: black;
-        color: white;
+        @include layout(black, white);
         height: 90vh;
         padding-left: 5vw;
         ul li a{
@@ -164,7 +163,6 @@ header{
     }
     #footer_iconos{
         margin-top: 5vh;
-        padding: 0 30%;
         display: flex;
         justify-content: space-around;
         align-items: center;

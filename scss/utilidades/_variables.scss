@@ -1,0 +1,7 @@
+$color-ofertas: rgb(236, 29, 209);
+$color-iconos: cornflowerblue;
+
+@mixin layout($black, $white){
+    background-color: $black;
+    color: $white;
+}
